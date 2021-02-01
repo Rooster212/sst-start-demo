@@ -2,5 +2,7 @@
   "name": "sst-start-demo",
   "type": "@serverless-stack/resources",
   "stage": "dev",
-  "region": "us-east-1"
+  "region": "eu-west-2",
+  "rolePermissionsBoundary": "arn:aws:iam::563314216495:policy/boundary_platform",
+  "rolePath": "/platform/finance/"
 }
